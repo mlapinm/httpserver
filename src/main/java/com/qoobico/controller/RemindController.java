@@ -25,7 +25,7 @@ public class RemindController {
 
     @RequestMapping(value = "/reminders/{id}", method = RequestMethod.GET)
     @ResponseBody
-    public Remind getReminder(@PathVariable("id") long remindID) {
+    public Remind getReminder(@PathVariable("id") long remindID ) {
         return service.getByID(remindID);
     }
 
