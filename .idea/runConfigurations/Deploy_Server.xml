@@ -3,7 +3,7 @@
     <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/reminders" />
     <option name="UPDATING_POLICY" value="restart-server" />
     <deployment>
-      <artifact name="httpserver:war exploded">
+      <artifact name="com.study.remidme.server:war exploded">
         <settings>
           <option name="CONTEXT_PATH" value="/" />
         </settings>
@@ -68,6 +68,7 @@
     <method>
       <option name="BuildArtifacts" enabled="true">
         <artifact name="httpserver:war exploded" />
+        <artifact name="com.study.remidme.server:war exploded" />
       </option>
     </method>
   </configuration>
